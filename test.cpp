@@ -9,6 +9,6 @@ int fib(int n)
 
 int main()
 {
-    std::cout << S(fib, 5) << std::endl;
+    std::cout << q(fib, 5)() << std::endl;
 }
 
